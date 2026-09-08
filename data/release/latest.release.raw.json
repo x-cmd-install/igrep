@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2142087,
       "digest": null,
-      "download_count": 417,
+      "download_count": 419,
       "created_at": "2024-09-08T20:15:26Z",
       "updated_at": "2024-09-08T20:15:27Z",
       "browser_download_url": "https://github.com/konradsz/igrep/releases/download/v1.3.0/igrep-v1.3.0-x86_64-pc-windows-msvc.zip"

@@ -4,7 +4,7 @@
 
 Interactive Grep
 
-![igrep](https://repo.x-cmd.io/igrep.svg)
+![igrep](https://repo.x-cmd.io/igrep.svg?lang=zh)
 
 ## 安装
 
@@ -22,7 +22,15 @@ x install igrep
 - **最新版本**: `v1.3.0` (2024-09-08)
 - **最近提交**: 2026-09-09
 - **Release 含资产**: 4 个
-- **发布时间**: 2024-09-08T20:21:41Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [igrep-v1.3.0-aarch64-apple-darwin.tar.gz](https://github.com/konradsz/igrep/releases/download/v1.3.0/igrep-v1.3.0-aarch64-apple-darwin.tar.gz) | 2.3 MiB | `native/darwin/arm64` |
+| [igrep-v1.3.0-x86_64-apple-darwin.tar.gz](https://github.com/konradsz/igrep/releases/download/v1.3.0/igrep-v1.3.0-x86_64-apple-darwin.tar.gz) | 2.4 MiB | `native/darwin/x64` |
+| [igrep-v1.3.0-x86_64-pc-windows-msvc.zip](https://github.com/konradsz/igrep/releases/download/v1.3.0/igrep-v1.3.0-x86_64-pc-windows-msvc.zip) | 2.0 MiB | `native/win/x64` |
+| [igrep-v1.3.0-x86_64-unknown-linux-gnu.tar.gz](https://github.com/konradsz/igrep/releases/download/v1.3.0/igrep-v1.3.0-x86_64-unknown-linux-gnu.tar.gz) | 2.5 MiB | `native/linux/x64/glibc` |
 
 ## 流行度
 
@@ -60,4 +68,4 @@ igrep 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:59:56Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:32:49Z._

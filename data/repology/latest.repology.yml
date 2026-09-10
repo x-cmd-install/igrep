@@ -1,0 +1,213 @@
+- repo: alpine_edge
+  subrepo: testing
+  srcname: igrep
+  binname: igrep
+  visiblename: igrep
+  version: 1.2.0
+  origversion: 1.2.0-r0
+  status: outdated
+  summary: Interactive grep
+  maintainers:
+    - orhunparmaksiz@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: testing
+  srcname: igrep
+  binname: igrep-doc
+  visiblename: igrep-doc
+  version: 1.2.0
+  origversion: 1.2.0-r0
+  status: outdated
+  summary: Interactive grep (documentation)
+  maintainers:
+    - orhunparmaksiz@gmail.com
+  licenses:
+    - MIT
+- repo: arch
+  subrepo: extra
+  srcname: igrep
+  binname: igrep
+  visiblename: igrep
+  version: 1.3.0
+  origversion: 1.3.0-2
+  status: newest
+  summary: Interactive grep
+  licenses:
+    - MIT
+- repo: baulk
+  srcname: igrep
+  binname: igrep
+  visiblename: igrep
+  version: 1.3.0
+  origversion: null
+  status: newest
+  summary: Runs grep (ripgrep's library) and allows to interactively pick its results and open selected match in a text editor.
+- repo: homebrew
+  srcname: igrep
+  visiblename: igrep
+  version: 1.3.0
+  origversion: null
+  status: newest
+  summary: Interactive grep
+- repo: macports
+  srcname: textproc/igrep
+  binname: igrep
+  visiblename: igrep
+  version: 1.3.0
+  origversion: null
+  status: newest
+  summary: Interactive Grep
+  maintainers:
+    - herbygillot@github
+  licenses:
+    - MIT
+  categories:
+    - textproc
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: igrep
+  binname: igrep
+  visiblename: igrep
+  version: 1.3.0
+  origversion: 1.3.0-2
+  status: newest
+  summary: Interactive grep
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: igrep
+  binname: igrep
+  visiblename: igrep
+  version: 1.3.0
+  origversion: 1.3.0-2
+  status: newest
+  summary: Interactive grep
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: igrep
+  binname: igrep
+  visiblename: igrep
+  version: 1.3.0
+  origversion: 1.3.0-2
+  status: newest
+  summary: Interactive grep
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: igrep
+  visiblename: igrep
+  version: 1.2.0
+  origversion: null
+  status: outdated
+  summary: Interactive Grep
+  maintainers:
+    - mail-maintainer@0x4a6f.dev
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: igrep
+  visiblename: igrep
+  version: 1.3.0
+  origversion: null
+  status: newest
+  summary: Interactive Grep
+  maintainers:
+    - mail-maintainer@0x4a6f.dev
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: igrep
+  visiblename: igrep
+  version: 1.3.0
+  origversion: null
+  status: newest
+  summary: Interactive Grep
+  maintainers:
+    - mail-maintainer@0x4a6f.dev
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: igrep
+  visiblename: igrep
+  version: 1.3.0
+  origversion: null
+  status: newest
+  summary: Interactive Grep
+  maintainers:
+    - mail-maintainer@0x4a6f.dev
+  licenses:
+    - MIT
+- repo: nix_stable_26_05
+  srcname: igrep
+  visiblename: igrep
+  version: 1.3.0
+  origversion: null
+  status: newest
+  summary: Interactive Grep
+  maintainers:
+    - mail-maintainer@0x4a6f.dev
+  licenses:
+    - MIT
+- repo: nix_unstable
+  srcname: igrep
+  visiblename: igrep
+  version: 1.3.0
+  origversion: null
+  status: newest
+  summary: Interactive Grep
+  maintainers:
+    - mail-maintainer@0x4a6f.dev
+  licenses:
+    - MIT
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: igrep
+  visiblename: igrep
+  version: 1.2.0~0
+  origversion: 1.2.0~0-bp156.1.11
+  status: outdated
+  summary: Interactive Grep
+  licenses:
+    - MIT
+  categories:
+    - Development/Tools/Navigators
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: igrep
+  binnames:
+    - igrep
+    - igrep-debuginfo
+    - igrep-debugsource
+  visiblename: igrep
+  version: 1.3.0~0
+  origversion: 1.3.0~0-2.6
+  status: newest
+  summary: Interactive Grep
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: parabola
+  subrepo: extra
+  srcname: igrep
+  binname: igrep
+  visiblename: igrep
+  version: 1.3.0
+  origversion: 1.3.0-2
+  status: newest
+  summary: Interactive grep
+  licenses:
+    - MIT
+- repo: scoop
+  subrepo: main
+  binname: igrep
+  visiblename: igrep
+  version: 1.3.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT

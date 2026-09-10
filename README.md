@@ -12,6 +12,17 @@ Interactive Grep
 x install igrep
 ```
 
+## Code insight
+
+Total: **3,307** lines of code across **27** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Rust | 3,263 | 23 | 454 | 23 |
+| Toml | 34 | 0 | 4 | 1 |
+| Ruby | 10 | 0 | 1 | 1 |
+| Markdown | 0 | 164 | 26 | 2 |
+
 ## Source
 
 - **Upstream**: <https://github.com/konradsz/igrep>
@@ -23,18 +34,9 @@ x install igrep
 - **Last commit**: 2026-09-09
 - **Assets in release**: 4
 
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [igrep-v1.3.0-aarch64-apple-darwin.tar.gz](https://github.com/konradsz/igrep/releases/download/v1.3.0/igrep-v1.3.0-aarch64-apple-darwin.tar.gz) | 2.3 MiB | `native/darwin/arm64` |
-| [igrep-v1.3.0-x86_64-apple-darwin.tar.gz](https://github.com/konradsz/igrep/releases/download/v1.3.0/igrep-v1.3.0-x86_64-apple-darwin.tar.gz) | 2.4 MiB | `native/darwin/x64` |
-| [igrep-v1.3.0-x86_64-pc-windows-msvc.zip](https://github.com/konradsz/igrep/releases/download/v1.3.0/igrep-v1.3.0-x86_64-pc-windows-msvc.zip) | 2.0 MiB | `native/win/x64` |
-| [igrep-v1.3.0-x86_64-unknown-linux-gnu.tar.gz](https://github.com/konradsz/igrep/releases/download/v1.3.0/igrep-v1.3.0-x86_64-unknown-linux-gnu.tar.gz) | 2.5 MiB | `native/linux/x64/glibc` |
-
 ## Popularity
 
-- **Stars**: 844 · **Forks**: 29 · **Open issues**: 44 · **Contributors**: 16
+- **Stars**: 845 · **Forks**: 29 · **Open issues**: 44 · **Contributors**: 16
 
 ## Totals (cumulative)
 
@@ -45,19 +47,32 @@ x install igrep
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 1 | 1 | 0 | 0 | 1 |
+| last60d | 2026-07-12 | 0 | 1 | 1 | 0 | 0 | 1 |
 | 90d | 2026-06-12 | 0 | 1 | 1 | 0 | 1 | 1 |
+| last180d | 2026-03-14 | 0 | 1 | 2 | 0 | 2 | 1 |
 | 360d | 2025-09-15 | 0 | 6 | 4 | 4 | 2 | 11 |
+| last720d | 2024-09-20 | 0 | 15 | 5 | 10 | 3 | 23 |
 
-## Code size
+## Release assets
 
-Total: **3,307** lines of code across **27** files in the top 5 languages.
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [igrep-v1.3.0-aarch64-apple-darwin.tar.gz](https://github.com/konradsz/igrep/releases/download/v1.3.0/igrep-v1.3.0-aarch64-apple-darwin.tar.gz) | 2.3 MiB | `native/darwin/arm64` |
+| [igrep-v1.3.0-x86_64-apple-darwin.tar.gz](https://github.com/konradsz/igrep/releases/download/v1.3.0/igrep-v1.3.0-x86_64-apple-darwin.tar.gz) | 2.4 MiB | `native/darwin/x64` |
+| [igrep-v1.3.0-x86_64-pc-windows-msvc.zip](https://github.com/konradsz/igrep/releases/download/v1.3.0/igrep-v1.3.0-x86_64-pc-windows-msvc.zip) | 2.0 MiB | `native/win/x64` |
+| [igrep-v1.3.0-x86_64-unknown-linux-gnu.tar.gz](https://github.com/konradsz/igrep/releases/download/v1.3.0/igrep-v1.3.0-x86_64-unknown-linux-gnu.tar.gz) | 2.5 MiB | `native/linux/x64/glibc` |
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Rust | 3,263 | 23 | 454 | 23 |
-| Toml | 34 | 0 | 4 | 1 |
-| Ruby | 10 | 0 | 1 | 1 |
-| Markdown | 0 | 164 | 26 | 2 |
+## Distribution status
+
+Reported by **19** distros on [repology.org](https://repology.org/project/igrep). **15** are ✅ on the latest upstream release, **4** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `1.3.0` | ✅ latest |
+| Homebrew | `1.3.0` | ✅ latest |
+| Nix unstable | `1.3.0` | ✅ latest |
+| Alpine edge | `1.2.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.3.0~0` | ✅ latest |
 
 ## Improve this data
 
@@ -68,4 +83,4 @@ Install metadata for igrep lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:32:49Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:52:34Z._

@@ -36,22 +36,22 @@ Total: **3,307** lines of code across **27** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 847 · **Forks**: 29 · **Open issues**: 44 · **Contributors**: 16
+- **Stars**: 848 · **Forks**: 29 · **Open issues**: 45 · **Contributors**: 16
 
 ## Totals (cumulative)
 
-- **Releases**: 10 · **Merged PRs**: 52 · **Open PRs**: 5 · **Closed issues**: 39 · **Open issues**: 5 · **Commits**: 220
+- **Releases**: 10 · **Merged PRs**: 52 · **Open PRs**: 5 · **Closed issues**: 39 · **Open issues**: 6 · **Commits**: 220
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-02 | 0 | 0 | 0 | 0 | 0 | 1 |
-| 90d | 2026-08-03 | 0 | 1 | 1 | 0 | 0 | 1 |
-| last180d | 2026-05-05 | 0 | 1 | 1 | 0 | 1 | 1 |
-| 360d | 2025-11-06 | 0 | 6 | 4 | 2 | 2 | 8 |
-| last720d | 2024-11-11 | 0 | 15 | 5 | 9 | 3 | 23 |
+| 30d | 2026-10-03 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-09-03 | 0 | 0 | 0 | 0 | 1 | 1 |
+| 90d | 2026-08-04 | 0 | 1 | 1 | 0 | 1 | 1 |
+| last180d | 2026-05-06 | 0 | 1 | 1 | 0 | 2 | 1 |
+| 360d | 2025-11-07 | 0 | 6 | 4 | 2 | 3 | 8 |
+| last720d | 2024-11-12 | 0 | 15 | 5 | 9 | 4 | 23 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for igrep lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:11:31Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T06:15:02Z._

@@ -1,3 +1,29 @@
+- repo: baulk
+  srcname: igrep
+  binname: igrep
+  visiblename: igrep
+  version: 1.3.0
+  origversion: null
+  status: newest
+  summary: Runs grep (ripgrep's library) and allows to interactively pick its results and open selected match in a text editor.
+- repo: homebrew
+  srcname: igrep
+  visiblename: igrep
+  version: 1.3.0
+  origversion: null
+  status: newest
+  summary: Interactive grep
+- repo: nix_stable_24_05
+  srcname: igrep
+  visiblename: igrep
+  version: 1.2.0
+  origversion: null
+  status: outdated
+  summary: Interactive Grep
+  maintainers:
+    - mail-maintainer@0x4a6f.dev
+  licenses:
+    - MIT
 - repo: alpine_edge
   subrepo: testing
   srcname: igrep
@@ -35,21 +61,6 @@
   summary: Interactive grep
   licenses:
     - MIT
-- repo: baulk
-  srcname: igrep
-  binname: igrep
-  visiblename: igrep
-  version: 1.3.0
-  origversion: null
-  status: newest
-  summary: Runs grep (ripgrep's library) and allows to interactively pick its results and open selected match in a text editor.
-- repo: homebrew
-  srcname: igrep
-  visiblename: igrep
-  version: 1.3.0
-  origversion: null
-  status: newest
-  summary: Interactive grep
 - repo: macports
   srcname: textproc/igrep
   binname: igrep
@@ -69,9 +80,9 @@
   srcname: igrep
   binname: igrep
   visiblename: igrep
-  version: 1.2.0
-  origversion: 1.2.0-1
-  status: outdated
+  version: 1.3.0
+  origversion: 1.3.0-2
+  status: newest
   summary: Interactive grep
   licenses:
     - MIT
@@ -80,9 +91,9 @@
   srcname: igrep
   binname: igrep
   visiblename: igrep
-  version: 1.2.0
-  origversion: 1.2.0-1
-  status: outdated
+  version: 1.3.0
+  origversion: 1.3.0-2
+  status: newest
   summary: Interactive grep
   licenses:
     - MIT
@@ -95,17 +106,6 @@
   origversion: 1.3.0-2
   status: newest
   summary: Interactive grep
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: igrep
-  visiblename: igrep
-  version: 1.2.0
-  origversion: null
-  status: outdated
-  summary: Interactive Grep
-  maintainers:
-    - mail-maintainer@0x4a6f.dev
   licenses:
     - MIT
 - repo: nix_stable_24_11
